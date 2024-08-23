@@ -1,0 +1,50 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  background: #f8f9fa;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.left-corner {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+button {
+  margin: 0 5px;
+}
+
+#blog {
+  padding: 20px;
+}
+
+#blog h1 {
+  font-size: 2rem;
+}
+
+#blog ul {
+  list-style: none;
+  padding: 0;
+}
+
+#blog li {
+  margin: 10px 0;
+}

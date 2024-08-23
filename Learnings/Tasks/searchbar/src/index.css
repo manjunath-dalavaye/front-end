@@ -1,0 +1,52 @@
+/* Centering container */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #e5e7eb; /* Light background color */
+}
+
+/* Styles for the SearchBar component */
+.search-bar-form {
+  display: flex;
+  align-items: center;
+  background-color: #f3f4f6;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar-input {
+  flex-grow: 1;
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  outline: none;
+}
+
+.search-bar-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+.search-bar-button {
+  padding: 0.5rem 1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar-button:hover {
+  background-color: #2563eb;
+}
+
+
+.heading{
+  display: flex;
+  justify-content: center;
+}
